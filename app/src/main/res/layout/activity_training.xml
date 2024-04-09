@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrainingActivity">
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6CBC20"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <Button
+        android:id="@+id/minSecBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Minor Second"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/majSecBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535"
+        android:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/majSecBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#673AB7"
+        android:text="Major Second"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/minSecBtn"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <Button
+        android:id="@+id/minThirdBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Minor Third"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/majThirdBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minSecBtn"
+        app:layout_constraintVertical_bias="0.0"
+        android:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/majThirdBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Major Third"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/minThirdBtn"
+        app:layout_constraintTop_toBottomOf="@+id/majSecBtn"
+        app:layout_constraintVertical_bias="0.0"
+        android:backgroundTint="#673AB7"/>
+
+    <Button
+        android:id="@+id/fourthBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Perfect Fourth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/dimFifthBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/minThirdBtn"
+        app:layout_constraintVertical_bias="0.0"
+        android:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/dimFifthBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Dim Fifth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fourthBtn"
+        app:layout_constraintTop_toBottomOf="@+id/majThirdBtn"
+        app:layout_constraintVertical_bias="0.0"
+        android:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/fifthBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Perfect Fifth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/minSixthBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fourthBtn"
+        app:layout_constraintVertical_bias="0.0"
+        android:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/minSixthBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#673AB7"
+        android:text="Minor Sixth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/fifthBtn"
+        app:layout_constraintTop_toBottomOf="@+id/dimFifthBtn"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <Button
+        android:id="@+id/majSixthBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Major Sixth"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/minSevBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fifthBtn"
+        app:layout_constraintVertical_bias="0.047"
+        android:backgroundTint="#673AB7" />
+
+
+    <Button
+        android:id="@+id/minSevBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Minor Seventh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/majSixthBtn"
+        app:layout_constraintTop_toBottomOf="@+id/minSixthBtn"
+        app:layout_constraintVertical_bias="0.049"
+        android:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/majSevBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Major Seventh"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/octBtn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/majSixthBtn"
+        app:layout_constraintVertical_bias="0.047"
+        android:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/octBtn"
+        android:layout_width="0dp"
+        android:layout_height="61dp"
+        android:text="Octave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/majSevBtn"
+        app:layout_constraintTop_toBottomOf="@+id/minSevBtn"
+        app:layout_constraintVertical_bias="0.049"
+        android:backgroundTint="#673AB7" />
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#6CBC20"
+        android:text="Start Training"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <Button
+        android:id="@+id/stopBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EA2121"
+        android:text="Stop Training"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

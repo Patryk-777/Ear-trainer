@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ear-rainer</string>
+    <string-array name="playing_options">
+        <item>W górę</item>
+        <item>W dół</item>
+    </string-array>
+</resources>
